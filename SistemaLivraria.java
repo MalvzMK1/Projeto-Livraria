@@ -43,12 +43,7 @@ public class SistemaLivraria {
                 default:
                     System.out.println("OPÇÃO INVÁLIDA");
                     break;
-                    
-            }
-            System.out.println("Deseja continuar? [S/N]");
-            String op = scan.next();
-            if(op.equals("N")) {
-                System.exit(0);
+
             }
         }
     }
